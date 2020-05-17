@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{CBD1D8BA-76A1-4D4A-A10E-C95A834937DF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Fit.Natic.Android PreferredExecutionTarget="Android.pixel_2_oreo_8_0_-_api_26" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fit.Natic" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

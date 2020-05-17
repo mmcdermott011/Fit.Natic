@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Fit.Natic.MealLogPage">
+    <ContentPage.Content>
+         <ScrollView>
+            <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Log Meals" Grid.Row="0" Grid.Column="3"  HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="3" Style = "{StaticResource TitleLabel}"/>
+                <Entry Placeholder="Name" x:Name="Meal_Name" WidthRequest="400"  Style="{StaticResource Entry}" ClearButtonVisibility="WhileEditing" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="7" Grid.RowSpan="1"/>
+                <Entry Placeholder="Calories" Keyboard = "Numeric" x:Name="Meal_Calories" Style="{StaticResource Entry}" ClearButtonVisibility="WhileEditing" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+                 <Picker  Title="Select Meal" x:Name="Meal_Type"  BackgroundColor="White" FontSize="20" TextColor="Black"  Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="1" FontFamily="Quicksand-Bold.ttf#Quicksand-Bold">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                           <x:String>Breakfast</x:String>
+                           <x:String>Lunch</x:String>
+                           <x:String>Dinner</x:String>
+                           <x:String>Snack</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                 </Picker>
+                 <Entry Placeholder="Notes" x:Name="Meal_Notes" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="7" Grid.RowSpan="2" Style="{StaticResource Entry}"/>
+            </Grid>
+            <Button Text="Save" Pressed="Save_Button_Pressed" Style="{StaticResource OrangeButton}" VerticalOptions="End"  />
+        </StackLayout>
+      </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+  

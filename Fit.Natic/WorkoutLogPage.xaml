@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Fit.Natic.WorkoutLogPage">
+    <ContentPage.Content>
+         <ScrollView>
+            <StackLayout>
+            <Label Text="Log Workouts" Padding="0,15,0,0"  Style = "{StaticResource TitleLabel}" HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Entry Placeholder="Name" x:Name="Workout_Name" WidthRequest="400"  Style="{StaticResource Entry}" ClearButtonVisibility="WhileEditing" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="7" Grid.RowSpan="1"/>
+                <Entry Placeholder="Duration (mins)" Keyboard = "Numeric" x:Name="Workout_Time" Style="{StaticResource Entry}" ClearButtonVisibility="WhileEditing" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+                 <Picker  Title="Select Type" x:Name="Workout_Type"  BackgroundColor="White" FontSize="20" TextColor="Black"  Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="1" FontFamily="Quicksand-Bold.ttf#Quicksand-Bold">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                           <x:String>Cardio</x:String>
+                           <x:String>Strength</x:String>
+                           <x:String>Pilates</x:String>
+                           <x:String>Yoga</x:String>
+                           <x:String>HIIT</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                 </Picker>
+                
+            </Grid>
+            <Entry Placeholder="Notes" WidthRequest="300" Margin="0,0,0,100"  HorizontalOptions="CenterAndExpand" x:Name="Workout_Notes" Style="{StaticResource Entry}"/>  
+            <Button Text="Save" Pressed="Save_Button_Pressed"  Style="{StaticResource OrangeButton}" VerticalOptions="End"  />
+        </StackLayout>
+      </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿{
+  "name": "John Jane Doe",
+  "age": 18,
+  "gender": "x",
+  "weight": 140.0,
+  "height": 64.5,
+  "userTarget": {
+    "calorieTarget": 2000,
+    "sleepTarget": 7,
+    "workoutTarget": 30,
+
+    "workout": {
+      "workoutType": "jog",
+      "duration": 60,
+      "notes": "tripped and ate shit"
+    },
+
+    "sleep": {
+      "duration": 8.0,
+      "notes": "baby kept cryin"
+    },
+
+    "meals": [
+      {
+        "name": "chicken and rice",
+        "mealCalories": 2500,
+        "mealNotes": "bone apple tea",
+        "mealTime": "2020-03-01T19:01:55.714942+03:00"
+      },
+      {
+        "name": "sushi",
+        "mealCalories": 1,
+        "mealNotes": "shit was rawww",
+        "mealTime": "2020-03-01T19:02:00.714942+03:00"
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fit.Natic.ResourceNav"
+             x:Name="Resources"
+             Appearing="Resources_Appearing"
+             Disappearing="Resources_Disappearing">
+    <ScrollView>
+       <StackLayout>
+           <Grid>
+             <Grid.RowDefinitions>
+                 <RowDefinition Height="*"></RowDefinition>
+                 <RowDefinition Height="*"></RowDefinition>
+                 <RowDefinition Height="*"></RowDefinition>
+             </Grid.RowDefinitions>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="*"></ColumnDefinition>
+                 <ColumnDefinition Width="*"></ColumnDefinition>
+                 <ColumnDefinition Width="*"></ColumnDefinition>
+             </Grid.ColumnDefinitions>
+         </Grid>
+         <Label Text="Resources" HorizontalOptions="Center" 
+                VerticalOptions="Start" Style = "{StaticResource TitleLabel}" Grid.Row="0" Grid.Column="1"></Label>
+         <Button ImageSource="workouts.png" Text="Workout Resources" Clicked="Button_OnClicked_Workouts"
+                 Style="{StaticResource WhiteButton}" Padding="30" HorizontalOptions="Center" VerticalOptions="End" 
+                 Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="2" ></Button>
+         <Button ImageSource="foodicon.png" Text="Food Resources" Padding="30" Clicked="Button_OnClicked_Meals"
+                   Style="{StaticResource WhiteButton}" HorizontalOptions="Center" 
+                   VerticalOptions="End" Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="1" />
+         <Button ImageSource="resource.png" Text="Calorie Counter" Padding="30" Clicked="Button_OnClicked_Calorie" 
+                 Style="{StaticResource WhiteButton}" HorizontalOptions="Center" VerticalOptions="End"/>
+         
+       </StackLayout>
+   </ScrollView>
+</ContentPage>

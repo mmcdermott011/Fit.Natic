@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fit.Natic.ProfilePage"
+             Title="Your Profile">
+    <StackLayout>
+        <ScrollView>
+            <Grid Padding="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Profile Photo" Grid.Row="0" TextColor="Black" FontSize="18" Grid.Column="2" Grid.ColumnSpan="5" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+                <ImageButton Source="edit_image.png" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="5" HeightRequest="50" WidthRequest="50"/>
+                <Entry Placeholder="Name" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Entry Placeholder="Gender" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Entry Placeholder="Height (Ex. 6'2)" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Entry Placeholder="Weight" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Entry Placeholder="Fitness Level" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Entry Placeholder="Fitness Goal" BackgroundColor="White" TextColor="Black" ClearButtonVisibility="WhileEditing" Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+                <Label Text="Calorie Target" TextColor ="Gray" Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="5" VerticalOptions="EndAndExpand"/>
+                <Slider Maximum="2000" Minimum="0" ValueChanged="OnSliderValueChanged" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="5" ThumbColor="Gray" BackgroundColor="White" MaximumTrackColor="LightGray" MinimumTrackColor="LightGray" />
+                <Label x:Name="displayLabel" Text = "" Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="5"/>
+                <Label Text="Sleep Target(in hours)" TextColor ="Gray" Grid.Row="11" Grid.Column="3" Grid.ColumnSpan="5" VerticalOptions="EndAndExpand"/>
+                <Slider Maximum="2000" Minimum="0" ValueChanged="OnSliderValueChanged" Grid.Row="12" Grid.Column="2" Grid.ColumnSpan="5" ThumbColor="Gray" BackgroundColor="White" MaximumTrackColor="LightGray" MinimumTrackColor="LightGray" />
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
