@@ -30,23 +30,15 @@ Click the Image Below For Video Demo
 
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
+- To run this project, you must have Microsoft Visual Studio installed and an android emulator.
+- Clone the repo to your machine, navigate to the directory and open the Fit.Natic solution file with Visual Studio.
+- Click run and choose an emulator you have installed on your machine. We have used a Pixel 2 and Pixel 3xl in the demos.
+  - Note: Demo currently only runs for Android
+## Built With
 Microsoft Visual Studio
 
-```
-Give examples
-```
-
-### Installing
-
-## Built With
-
 ## Authors
+Michael McDermott, Josh Matthews, Amanda Chan, Lorenzo Flud, Adam Dehaini
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
