@@ -6,7 +6,7 @@ Click the Image Below For Video Demo
 ## Images
 * **Home Page**
 
-![Image of Home Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/stats1.png)
+![Image of Home Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/stats1.png =500x500)
 
 * **Setup Page**
 
