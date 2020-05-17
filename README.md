@@ -4,18 +4,19 @@ Click the Image Below For Video Demo
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/0xLdJyaskss/0.jpg)](https://www.youtube.com/watch?v=0xLdJyaskss)
 
 ## Images
-** * Home Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/stats1.png"Home Page")
-** *Setup Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/intro.png"Intro Page")
-** * Profile Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/profile.png"Profile Page")
-** * Resources Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/resources.png"Resources Page")
-** * Workout Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/workout.png"Workout Page")
-** * Meal Page **
-![alt text](https://github.com/mmcdermott011/Fit.Natic/blob/master/images/meal.png"Meal Page")
+* **Home Page**
+![Image of Home Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/stats1.png)
+![alt text]("Home Page")
+* **Setup Page**
+![Image of Intro Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/intro.png "Intro Page")
+* **Profile Page**
+![Image of Profile Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/profile.png "Profile Page")
+* **Resources Page**
+![Image of Resources Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/resources.png "Resources Page")
+* **Workout Page**
+![Image of Workout Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/workout.png "Workout Page")
+* **Meal Page**
+![Image of Meal Page](https://github.com/mmcdermott011/Fit.Natic/raw/master/images/meal.png "Meal Page")
 
 
 ## Getting Started
